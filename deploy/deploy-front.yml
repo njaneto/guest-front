@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: guest-front
+  labels:
+    app: guest-front
+spec:
+  containers:
+  - name: guest-front
+    image: njaneto/guest-front:1
+    ports:
+      - containerPort: 8081
