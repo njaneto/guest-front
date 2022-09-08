@@ -31,12 +31,14 @@ const GuestNigthList = (props) => {
         accessor: "guestType",
         Cell: (props) => {
           const type = props.value;
-          console.log(type)
-          return type === "AVISO" ? (
-            <button className="btn btn-success"> {type}</button>
-          ) : (
-            <button className="btn btn-danger"> {type} </button>
-          );
+          //console.log(type)
+          return (
+          type === "VISITANTE" ? (<button className="btn btn-info"> {type}</button> ) :
+          type === "AVISO" ? ( <button className="btn btn-danger"> {type} </button> )  : 
+          type === "ANIVERSÁRIO" ? ( <button className="btn btn-success"> {type} </button>   ) :
+          type === "ORAÇÃO" ? ( <button className="btn btn-warning"> {type} </button>   ) :
+          ( <button className="btn btn-default"> {type} </button>   ) )
+
         }
       },
       {
@@ -68,7 +70,7 @@ const GuestNigthList = (props) => {
         <div className="input-group mb-3">
           <div className="input-group-append">
             <h1>
-              Visitantes e Avisos.
+              Avisos.
             </h1>
           </div>
         </div>

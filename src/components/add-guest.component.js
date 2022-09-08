@@ -74,8 +74,8 @@ export default class AddGuest extends Component {
       id: null,
       nome: "",
       mensagem: "", 
-      categoria: 0,
-      periodo: 0,
+      categoria: "",
+      periodo: "",
 
       submitted: false
     });
@@ -126,6 +126,9 @@ export default class AddGuest extends Component {
                 <option value={0}>-- Selecione --</option>
                 <option value={1}>VISITANTE</option>
                 <option value={2}>AVISO</option>
+                <option value={3}>ANIVERSÁRIO</option>
+                <option value={4}>ORAÇÃO</option>
+                <option value={5}>APRESENTAÇÃO</option>
               </select>
             </div>
 

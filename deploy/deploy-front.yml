@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: guest-front
-    image: njaneto/guest-front:1
+    image: njaneto/guest-front:2
     ports:
       - containerPort: 8081
