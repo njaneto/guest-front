@@ -1,6 +1,6 @@
 # Guest Front
 
-Frontend made in react to integrate with the Guest API project (taking a look at Readme for you to understand why this frontend), I honestly don't know why I chose to react. I wanted to learn something about frontend, I'm open to changes, I'm still learning, you can criticize
+Frontend made in react to integrate with the [Guest-Api](https://github.com/njaneto/guest-api) project (taking a look at [README](https://github.com/njaneto/guest-front/blob/main/README.md) for you to understand why this frontend), I honestly don't know why I chose to react. I wanted to learn something about frontend, I'm open to changes, I'm still learning, you can criticize
 
 <h4> Imagine backend developing frontend 🫣</h4>
 
@@ -19,10 +19,14 @@ Requirements for the software and other tools to build, test and push
 - [X] Initial work - 🥳
 - [X] Dockerfile - 🥹
 - [X] Kubernetes - 😝
+- [ ] Test units - 😏
+
+- Screens
 - [X] Warning check in - 🙂
 - [X] Warning List - 🙃
-- [ ] login - 🫣
-- [ ] Test units - 😏
+- [ ] Login - 🫣
+- [ ] New members - 🫶🏻
+- [ ] Metrics - 📊
 - [ ] Evolution - 👀
 
 ## Running 
