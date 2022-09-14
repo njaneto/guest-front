@@ -1,0 +1,136 @@
+.btn-sample-weding { 
+  color: hsl(0, 0%, 100%); 
+  background-color: hsl(141, 90%, 44%); 
+  border-color: hsl(141, 90%, 44%); 
+} 
+ 
+.btn-sample-weding:hover, 
+.btn-sample-weding:focus, 
+.btn-sample-weding:active, 
+.btn-sample-weding.active, 
+.open .dropdown-toggle.btn-sample-weding { 
+  color: hsl(0, 0%, 100%); 
+  background-color: hsl(141, 90%, 44%); 
+  border-color: hsl(141, 90%, 44%); 
+} 
+ 
+.btn-sample-weding:active, 
+.btn-sample-weding.active, 
+.open .dropdown-toggle.btn-sample-weding { 
+  background-image: none; 
+} 
+ 
+.btn-sample-weding.disabled, 
+.btn-sample-weding[disabled], 
+fieldset[disabled] .btn-sample-weding, 
+.btn-sample-weding.disabled:hover, 
+.btn-sample-weding[disabled]:hover, 
+fieldset[disabled] .btn-sample-weding:hover, 
+.btn-sample-weding.disabled:focus, 
+.btn-sample-weding[disabled]:focus, 
+fieldset[disabled] .btn-sample-weding:focus, 
+.btn-sample-weding.disabled:active, 
+.btn-sample-weding[disabled]:active, 
+fieldset[disabled] .btn-sample-weding:active, 
+.btn-sample-weding.disabled.active, 
+.btn-sample-weding[disabled].active, 
+fieldset[disabled] .btn-sample-weding.active { 
+  background-color: hsl(141, 90%, 44%); 
+  border-color: hsl(141, 90%, 44%); 
+} 
+ 
+.btn-sample-weding .badge { 
+  color: hsl(141, 90%, 44%); 
+  background-color: hsl(0, 0%, 100%); 
+}
+
+.btn-sample-worning { 
+  color: hsl(0, 0%, 100%); 
+  background-color: hsl(303, 57%, 67%); 
+  border-color: hsl(303, 57%, 67%); 
+} 
+ 
+.btn-sample-worning:hover, 
+.btn-sample-worning:focus, 
+.btn-sample-worning:active, 
+.btn-sample-worning.active, 
+.open .dropdown-toggle.btn-sample-worning { 
+  color: hsl(0, 0%, 100%); 
+  background-color: hsl(303, 57%, 67%); 
+  border-color: hsl(303, 57%, 67%); 
+} 
+ 
+.btn-sample-worning:active, 
+.btn-sample-worning.active, 
+.open .dropdown-toggle.btn-sample-worning { 
+  background-image: none; 
+} 
+ 
+.btn-sample-worning.disabled, 
+.btn-sample-worning[disabled], 
+fieldset[disabled] .btn-sample-worning, 
+.btn-sample-worning.disabled:hover, 
+.btn-sample-worning[disabled]:hover, 
+fieldset[disabled] .btn-sample-worning:hover, 
+.btn-sample-worning.disabled:focus, 
+.btn-sample-worning[disabled]:focus, 
+fieldset[disabled] .btn-sample-worning:focus, 
+.btn-sample-worning.disabled:active, 
+.btn-sample-worning[disabled]:active, 
+fieldset[disabled] .btn-sample-worning:active, 
+.btn-sample-worning.disabled.active, 
+.btn-sample-worning[disabled].active, 
+fieldset[disabled] .btn-sample-worning.active { 
+  background-color: hsl(303, 57%, 67%); 
+  border-color: hsl(303, 57%, 67%); 
+} 
+ 
+.btn-sample-worning .badge { 
+  color: hsl(303, 57%, 67%); 
+  background-color: hsl(0, 0%, 100%); 
+}
+.btn-sample-presentation { 
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border-color: #000000; 
+} 
+ 
+.btn-sample-presentation:hover, 
+.btn-sample-presentation:focus, 
+.btn-sample-presentation:active, 
+.btn-sample-presentation.active, 
+.open .dropdown-toggle.btn-sample-presentation { 
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border-color: #000000; 
+} 
+ 
+.btn-sample-presentation:active, 
+.btn-sample-presentation.active, 
+.open .dropdown-toggle.btn-sample-presentation { 
+  background-image: none; 
+} 
+ 
+.btn-sample-presentation.disabled, 
+.btn-sample-presentation[disabled], 
+fieldset[disabled] .btn-sample-presentation, 
+.btn-sample-presentation.disabled:hover, 
+.btn-sample-presentation[disabled]:hover, 
+fieldset[disabled] .btn-sample-presentation:hover, 
+.btn-sample-presentation.disabled:focus, 
+.btn-sample-presentation[disabled]:focus, 
+fieldset[disabled] .btn-sample-presentation:focus, 
+.btn-sample-presentation.disabled:active, 
+.btn-sample-presentation[disabled]:active, 
+fieldset[disabled] .btn-sample-presentation:active, 
+.btn-sample-presentation.disabled.active, 
+.btn-sample-presentation[disabled].active, 
+fieldset[disabled] .btn-sample-presentation.active { 
+  background-color: #FFFFFF; 
+  border-color: #000000; 
+} 
+ 
+.btn-sample-presentation .badge { 
+  color: #FFFFFF; 
+  background-color: #000000; 
+}
