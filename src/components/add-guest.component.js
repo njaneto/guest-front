@@ -16,7 +16,6 @@ export default class AddGuest extends Component {
       nome: "",
       mensagem: "", 
       categoria: 0,
-      periodo: 0,
       submitted: false
     };  
   }
@@ -49,7 +48,6 @@ export default class AddGuest extends Component {
     var data = {
       name: this.state.nome,
       message: this.state.mensagem,
-      visitPeriod: parseInt(this.state.periodo),
       guestType: parseInt(this.state.categoria)
 
     };
@@ -75,7 +73,6 @@ export default class AddGuest extends Component {
       nome: "",
       mensagem: "", 
       categoria: "",
-      periodo: "",
 
       submitted: false
     });
@@ -125,20 +122,11 @@ export default class AddGuest extends Component {
               <select className="form-control" value={this.state.categoria} onChange={this.onChangeCategoria}>
                 <option value={0}>-- Selecione --</option>
                 <option value={1}>VISITANTE</option>
-                <option value={2}>AVISO</option>
-                <option value={3}>ANIVERSÁRIO</option>
-                <option value={4}>ORAÇÃO</option>
-                <option value={5}>APRESENTAÇÃO</option>
-              </select>
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="periodo">Período(*)</label>
-              <select className="form-control" value={this.state.periodo} onChange={this.onChangePeriodo}>
-                <option value={0}>-- Selecione --</option>
-                <option value={1}>MANHA</option>
-                <option value={2}>TARDE</option>
-                <option value={3}>NOITE</option>
+                <option value={2}>AVISO/RECADOS</option>
+                <option value={3}>ANIVERSÁRIO </option>
+                <option value={4}>ANIVERSÁRIO CASAMENTO</option>
+                <option value={5}>ORAÇÃO</option>
+                <option value={6}>APRESENTAÇÃO</option>
               </select>
             </div>
 

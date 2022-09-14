@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import "./bootstrap.min.css";
 
 import AddGuest from "./components/add-guest.component";
-import GuestMorningList from "./components/guest-morning-list.component";
-import GuestAfternoonList from "./components/guest-afternoon-list.component";
-import GuestNigthList from "./components/guest-nigth-list.component";
+import GuestWorningList from "./components/guest-worning-list.component";
+import GuestDeleteList from "./components/guest-delete-list.component";
 
 class App extends Component {
   render() {
@@ -20,28 +20,21 @@ class App extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/guests-morning"} className="navbar-brand">
-                Manhã
+              <Link to={"/guests-worning"} className="navbar-brand">
+                Avisos
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/guests-afternoon"} className="navbar-brand">
-                Tarde
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/guests-nigth"} className="navbar-brand">
-                Noite
+              <Link to={"/guests-delete"} className="navbar-brand">
+                Excluir
               </Link>
             </li>
           </div>
         </nav>
-
         <div className="container mt-3">
           <Switch>
-            <Route exact path="/guests-morning" component={GuestMorningList} />
-            <Route exact path="/guests-afternoon" component={GuestAfternoonList} />
-            <Route exact path="/guests-nigth" component={GuestNigthList} />
+            <Route exact path="/guests-delete" component={GuestDeleteList} />
+            <Route exact path="/guests-worning" component={GuestWorningList} />
             <Route exact path={["/","/add"]} component={AddGuest} />
           </Switch>
         </div>
